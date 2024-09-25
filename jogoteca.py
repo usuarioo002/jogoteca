@@ -1,3 +1,5 @@
+#REALIZANDO COMIT
+
 from flask import Flask, render_template, request, redirect, session, flash, url_for
 
 class Jogo:
@@ -72,3 +74,4 @@ def logout():
     return redirect(url_for('index'))
 
 app.run(debug=True)
+
